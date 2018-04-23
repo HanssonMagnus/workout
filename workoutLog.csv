@@ -1,11 +1,11 @@
 Weight training log.;;;;;;;;;;
 The format of the data is in the following structure:;;;;;;;;;;
- ((x_1,y_1),(x_2,y_2),...,(x_n,y_n)) where x_n is the number of reps for the given set and y_n is the weight for the given set.;;;;;;;;;;
+ ((x_1,y_1),(x_2,y_2),...,(x_n,y_n)) where x_n is the number of reps for the given set n and y_n is the weight for the given set n.;;;;;;;;;;
 Each specific combination of reps and weights (i.e. sets) are represented by each tuple respectively.;;;;;;;;;;
 ;;;;;;;;;;
 Creatine is a binary variable:;;;;;;;;;;
 0 not on creatine, 1 on creatine;;;;;;;;;;
-"Note: no consideration has been given to the ""creatine lag"", usually I take 5 grams each day when 1.";;;;;;;;;;
+"Note: no consideration has been given to the ""creatine lag"", usually I take 5ml each day when 1.";;;;;;;;;;
 ;;;;;;;;;;
 DATA;;;;;;;;;;
 Date;Benchpress;Deadlift;Squat;Press;Pullups;Rows;Dips;Curls;Creatine;Weight
@@ -16,3 +16,5 @@ Date;Benchpress;Deadlift;Squat;Press;Pullups;Rows;Dips;Curls;Creatine;Weight
 2018-03-25;;((5,80),(5,80),(5,80));;;;;;;0;68.4
 2018-04-12;((4,50),(5,50),(5,50),(5,50),(5,50));((5,80),(5,80),(5,80),(5,80),(5,80));;;((8,10),(6,10),(5,10));;;;1;68.7
 2018-04-15;;;((5,70),(5,70),(5,70),(5,70),(5,70));((3,40),(5,35),(5,35),(5,35));((10,10),(8,10),(5,10));;;;1;68.2
+2018-04-19;((5,50),(2,60),(2,60),(5,50),(5,50));((5,90),(5,90),(5,90),(5,80),(5,80));;;((5,15),(6,15),(5,15));;;;1;
+2018-04-22;;;((5,70),(5,70),(5,70),(5,70),(5,70));((3,40),(2,40),(3,40),(3,40),(2,40));;;;;1;70.1
